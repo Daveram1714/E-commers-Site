@@ -73,4 +73,12 @@
     color: white;
 }
 
+.navbar {
+    transition: transform 0.3s ease;
+  }
+  
+  .hide-navbar {
+    transform: translateY(-100%);
+  }
+  
 
