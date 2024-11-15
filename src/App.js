@@ -7,6 +7,7 @@ import Product from './Pages/Product'
 import Cart from './Pages/Cart'
 import LoginSignup from './Pages/LoginSignup'
 import Missing from './Missing'
+import Footer from './Component/Footer/Footer'
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
       <Route path = '*' element ={<Missing />} />
 
     </Routes>
+    <Footer />
     </div>
   )
 }
