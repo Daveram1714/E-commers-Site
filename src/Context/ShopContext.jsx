@@ -1,6 +1,7 @@
 import React, { createContext } from 'react'
 import all_products from "../Component/Asserts/all_product"
 
+
 export const ShopContext = createContext(null)
 const ShopContextProvider = (props) => {
     const contextValue = {all_products};
@@ -9,6 +10,7 @@ const ShopContextProvider = (props) => {
    
    <ShopContext.Provider value={contextValue}>
         {props.children}
+    
    </ShopContext.Provider>
   )
 }
